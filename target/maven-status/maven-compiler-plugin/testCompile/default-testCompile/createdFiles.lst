@@ -1,0 +1,3 @@
+starter\testRunner\CucumberTestSuite.class
+starter\testRunner\SpringIntegrationTest.class
+starter\stepdefinitions\AdresseStepDef.class

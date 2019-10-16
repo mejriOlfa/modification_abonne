@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="13.776362">
+<testcase classname="Modifier l'adresse d'un abonné" name="_2" time="13.744077">
+<system-out><![CDATA[Etant donné un abonne avec une adresse principale inactive en France........passed
+Lorsque le conseiller connecte a FACE modifie l'adresse de l'abonne sans date d'effet.passed
+Alors l'adresse de l'abonne modifiee est enregistree sur l'ensemble des contrats de l'abonne.passed
+Et un mouvement de modification d'adresse est cree..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Modifier l'adresse d'un abonné" name="_3" time="0.032285">
+<failure message="java.lang.AssertionError: expected [France] but found [Pologne]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#13;&#10;&#9;at starter.stepdefinitions.AdresseStepDef.adressePrincipale(AdresseStepDef.java:61)&#13;&#10;&#9;at ✽.un abonne avec une adresse principale active en Pologne(src/test/resources/features/adresse.feature:5)&#13;&#10;"><![CDATA[Etant donné un abonne avec une adresse principale active en Pologne.........failed
+Lorsque le conseiller connecte a EC modifie l'adresse de l'abonne avec date d'effet.skipped
+Alors l'adresse de l'abonne modifiee est enregistree sur l'ensemble des contrats de l'abonne.skipped
+Et un mouvement de modification d'adresse est cree..........................skipped
+
+StackTrace:
+java.lang.AssertionError: expected [France] but found [Pologne]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at starter.stepdefinitions.AdresseStepDef.adressePrincipale(AdresseStepDef.java:61)
+	at ✽.un abonne avec une adresse principale active en Pologne(src/test/resources/features/adresse.feature:5)
+]]></failure>
+</testcase>
+</testsuite>

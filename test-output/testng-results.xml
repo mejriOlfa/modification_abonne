@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14478" started-at="2019-10-16T07:25:33Z" finished-at="2019-10-16T07:25:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14478" started-at="2019-10-16T07:25:33Z" finished-at="2019-10-16T07:25:47Z">
+      <class name="starter.testRunner.CucumberTestSuite">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:starter.testRunner.CucumberTestSuite@5c1a8622]" name="setUpClass" is-config="true" duration-ms="185" started-at="2019-10-16T07:25:33Z" finished-at="2019-10-16T07:25:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:starter.testRunner.CucumberTestSuite@5c1a8622]" name="feature" duration-ms="14049" started-at="2019-10-16T07:25:33Z" data-provider="features" finished-at="2019-10-16T07:25:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Modifier l'adresse d'un abonné"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:starter.testRunner.CucumberTestSuite@5c1a8622]" name="feature" duration-ms="39" started-at="2019-10-16T07:25:47Z" data-provider="features" finished-at="2019-10-16T07:25:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Modifier l'adresse d'un abonné"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [France] but found [Pologne]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [France] but found [Pologne]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at starter.stepdefinitions.AdresseStepDef.adressePrincipale(AdresseStepDef.java:61)
+at ✽.un abonne avec une adresse principale active en Pologne(src/test/resources/features/adresse.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:starter.testRunner.CucumberTestSuite@5c1a8622]" name="tearDownClass" is-config="true" duration-ms="141" started-at="2019-10-16T07:25:47Z" finished-at="2019-10-16T07:25:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- starter.testRunner.CucumberTestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

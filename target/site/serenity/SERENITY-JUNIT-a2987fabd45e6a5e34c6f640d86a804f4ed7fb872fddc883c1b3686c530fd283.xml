@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Modifier l'adresse d'un abonné" skipped="0" tests="2" time="13.96" timestamp="2019-10-16 08:24:15"><testcase name=""><failure message="expected [France] but found [Pologne]" type="java.lang.AssertionError">expected [France] but found [Pologne]</failure><system-err>expected [France] but found [Pologne]&#13;
+starter.stepdefinitions.AdresseStepDef.adressePrincipale(AdresseStepDef.java:61)&#13;
+✽.un abonne avec une adresse principale active en Pologne(src/test/resources/features/adresse.feature:5)&#13;
+</system-err></testcase></testsuite>

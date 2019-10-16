@@ -1,0 +1,35 @@
+{
+  "consumer": {
+    "name": "userService"
+  },
+  "provider": {
+    "name": "canalService"
+  },
+  "interactions": [
+    {
+      "description": "GET /api/getConnectedUser/1/ -> 200",
+      "request": {
+        "method": "GET",
+        "path": "/api/getConnectedUser/1/",
+        "headers": {
+          "connection": "keep-alive",
+          "accept-encoding": "gzip,deflate",
+          "user-agent": "Apache-HttpClient/4.5.9 (Java/1.8.0_221)",
+          "accept": "*/*"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "content-type": "application/json"
+        },
+        "body": {
+          "id": 1,
+          "name": "Linkx joe",
+          "username": "linkx",
+          "canal": "FACE"
+        }
+      }
+    }
+  ]
+}

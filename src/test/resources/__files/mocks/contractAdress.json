@@ -1,0 +1,24 @@
+{
+"adresses":[
+		{
+		  "contractId": 1,
+		  "adresse": "21 Boulevard de Bonne Nouvelle",
+		  "code": "75015",
+		  "status": "sans date d'effet"
+		},
+		{
+		  "contractId": 2,
+		  "adresse": "21 Boulevard de Bonne Nouvelle",
+		  "code": "75015",
+		  "status": "sans date d'effet"
+		},
+		{
+		  "contractId": 3,
+		  "adresse": "21 Boulevard de Bonne Nouvelle",
+		  "code": "75015",
+		  "status": "sans date d'effet"
+		}
+
+]
+
+}
